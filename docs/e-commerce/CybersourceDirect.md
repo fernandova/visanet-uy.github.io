@@ -110,7 +110,7 @@ Formato del campo *issuer_additionalData*:
 |85-86|2|Id integrador (alfanumérico)|Mandatorio|Identificador de integrador asignado por Visanet a la pasarela|
 |87|1| Quién retiene beneficio leyes ( "V" = Visanet, "C" = Comercio )|Mandatorio|"V" para las pasarelas,"C" para los Payment Facilitators|
 |||||
-|88-89|2|Tipo documento origen (“01”= C.I.  “02”=RUT)|Mandatorio PF| Este campo solo aplica a la figura de Payment Facilitator|
+|88-89|2|Tipo documento origen (“02”=RUT  C.I.=“03”)|Mandatorio PF| Este campo solo aplica a la figura de Payment Facilitator|
 |90-101|12|Número documento comercio origen (alfanumérico)|Mandatorio PF|Este campo solo aplica a la figura de Payment Facilitator|
 |102-126|25|Número de pedido/orden (alfanumérico)|Opcional|Número que identifica el pedido/orden para el comercio|
 |127-138|12|Marca transacción especial (alfanumérico)|Opcional|Se utiliza para marcar diferentes modalidades u operaciones vinculadas a la transacción. El contenido de este campo debe ser previamente coordinado con Visanet<br> Por ejemplo:  <br>- Código de Promocion<br>- Link de pago: el contenido debe ser "PAGOLINK&nbsp;&nbsp;&nbsp;&nbsp;"|
